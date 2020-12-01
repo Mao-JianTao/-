@@ -10,12 +10,23 @@ export default new Router({
             path: '/',
             component: () =>
                 import ('./views/Home.vue'),
-            children: [{
-                path: 'xiao',
-                component: () =>
-                    import ('./views/Xiao.vue')
-            }, ]
+            children: []
         },
+        {
+            path: '/xiao',
+            component: () =>
+                import ('./views/Xiao.vue'),
+        },
+        {
+            path: '/home',
+            component: () =>
+                import ('./views/Home.vue'),
+        },
+        {
+            path: '/sou',
+            component: () =>
+                import ('./views/Sou.vue')
+        }
 
     ]
 })

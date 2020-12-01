@@ -2,7 +2,7 @@
   <div id="footer">
     <van-tabbar v-model="active">
       <van-tabbar-item icon="orders-o" to="/home">首页</van-tabbar-item>
-      <van-tabbar-item icon="envelop-o" to="/xiao">消息</van-tabbar-item>
+     <van-tabbar-item icon="envelop-o" > <router-link to="/xiao">消息</router-link></van-tabbar-item>
       <van-tabbar-item icon="manager-o">我的</van-tabbar-item>
     </van-tabbar>
   </div>

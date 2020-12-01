@@ -1,13 +1,13 @@
 <template>
-  <div id="app">
-      <van-search
+     <router-link tag="div" to="/sou">
+       <van-search
         v-model="value"
         shape="round"
         background="#ffffff"
         input-align="center"
         placeholder="请输入要查找的内容"
-      />
-  </div>
+      /></router-link>
+      
 </template>
 
 <script>

@@ -186,7 +186,7 @@
 import Top from "../components/Top";
 import Bot from "../components/Bot";
 export default {
-  name: "home",
+  name: "Home",
   components: {
     Top,
     Bot,
