@@ -1,8 +1,8 @@
 <template>
   <div id="footer">
     <van-tabbar v-model="active">
-      <van-tabbar-item icon="orders-o">首页</van-tabbar-item>
-      <van-tabbar-item icon="envelop-o">消息</van-tabbar-item>
+      <van-tabbar-item icon="orders-o" to="/home">首页</van-tabbar-item>
+      <van-tabbar-item icon="envelop-o" to="/xiao">消息</van-tabbar-item>
       <van-tabbar-item icon="manager-o">我的</van-tabbar-item>
     </van-tabbar>
   </div>
@@ -10,15 +10,7 @@
 <script>
 export default {
   name: "Bot",
-  data() {
-    return {
-      active: 0,
-      icon: {
-        active: "https://img.yzcdn.cn/vant/user-active.png",
-        inactive: "https://img.yzcdn.cn/vant/user-inactive.png",
-      },
-    };
-  },
+
 };
 </script>
 
